@@ -58,7 +58,7 @@ const OrderCart = () => {
     useEffect(() => {
         fetch();
         // console.log("cart data ", cart);
-    }, [])
+    }, [qt])
 
     const inc = () =>{
         setQt(qt + 1);
